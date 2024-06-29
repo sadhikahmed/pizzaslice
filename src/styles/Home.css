@@ -1,0 +1,55 @@
+/* Home.css */
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Adjust height as needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.headerContainer {
+  text-align: center;
+  color: white;
+}
+
+.headerContainer h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.headerContainer p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.headerContainer button {
+  background-color: #000000;
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.headerContainer button:hover {
+  background-color: #f57c00;
+}
+
+@media (max-width: 768px) {
+  .headerContainer h1 {
+    font-size: 2.5rem;
+  }
+
+  .headerContainer p {
+    font-size: 1.2rem;
+  }
+
+  .headerContainer button {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
+}
